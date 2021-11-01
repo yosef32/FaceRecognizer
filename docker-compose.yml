@@ -2,8 +2,7 @@ version: "3.1"
 
 services:
   face-recognizer:
-    image: face-recognizer
-    build: .
+    image: yoseffyy/facerecognizer:yosefromano
     ports:
       - 8000:8000
     env_file: 
